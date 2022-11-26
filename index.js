@@ -15,8 +15,7 @@ function solveRect(l, b) {
         }
         else {
             console.log("length is " + l + " and breadth is " + b + " and area is " + rectangle.area() + " and perimeter is " + rectangle.perimeter());
-        }
-        
+        }        
     });
     console.log("this will execute before the rect function even though its placed below it because Rect is delayed by settimeout");
 
@@ -26,7 +25,8 @@ function solveRect(l, b) {
     else {
         console.log("Area of rectangle is" + rect.area(l, b));
         console.log("Perimeter of rectangle is" + rect.perimeter(l, b));
-    }*/
+    } kavita*/
+
 }
 solveRect(3, 6);
 solveRect(2, 5);
